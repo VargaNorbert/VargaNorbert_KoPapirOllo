@@ -61,13 +61,15 @@
             android:layout_height="wrap_content"
             android:text="Ember: 0"
             android:textSize="20sp"
-            android:layout_marginRight="10dp"/>
+            android:layout_marginRight="10dp"
+            android:id="@+id/ember"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Computer: 0"
             android:textSize="20sp"
+            android:id="@+id/computer"
             />
 
 
@@ -87,6 +89,7 @@
             android:text="KŐ"
             android:id="@+id/ko"
             android:layout_marginRight="10dp"
+            android:backgroundTint="@color/grey"
             />
 
         <Button
@@ -95,6 +98,7 @@
             android:text="PAPÍR"
             android:id="@+id/papir"
             android:layout_marginRight="10dp"
+            android:backgroundTint="@color/grey"
             />
 
         <Button
@@ -102,6 +106,7 @@
             android:layout_height="wrap_content"
             android:text="OLLÓ"
             android:id="@+id/ollo"
+            android:backgroundTint="@color/grey"
             />
     </LinearLayout>
 
